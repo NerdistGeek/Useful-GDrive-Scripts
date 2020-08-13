@@ -1,10 +1,12 @@
+//Funtion thats creates a google trigger
 function createTimeDrivenTriggers() {
-  ScriptApp.newTrigger('emptyThrash')
-      .timeBased()
-      .everyHours(1)
-      .create();
+  ScriptApp.newTrigger('emptyTrash') //Trigger name
+      .timeBased() //Time based trigger
+      .everyHours(1) //Runs every hour
+      .create(); //creates the trigger
 }
 
-function emptyThash(){
+//Functiion that empties the users trash
+function emptyTrash(){
   Drive.Files.emptyTrash();
 }
