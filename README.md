@@ -1,9 +1,25 @@
 # GDrive File Organizer
-This organizes files from a parent folder into current month on google drive
+This JavaScript file, organizes files from a parent folder into current month on google drive
 
 ## How to Use
 1. Copy code into Google Scripts (.gs) (Link to Google Script - https://www.google.com/script/start/)
 2. Change line 40 so instead of 'ADD THE PARENT FOLDER ID HERE!!!!!!!' it is your parent folder ID
-3. Run
+3. Add the function to a trigger
+4. Run
 
-If you want to do other folders simply copy and paste the subReddit1() function and replace the FOLDER_ID with the new parent folder ID 
+# Duplicate file remover
+This JavaScript file, looks through a folder and removes any duplicates based on size and name
+
+## How to Use
+1. Copy code into Google Scripts (.gs) (Link to Google Script - https://www.google.com/script/start/)
+2. Change line 11 so instead of 'PARANT FOLDER ID HERE' it is your parent folder ID
+3. Add the function to a trigger
+4. Run
+
+# Empty Trash
+This JavaScript file, that empties for GDrive trash
+
+## How to Use
+1. Copy code into Google Scripts (.gs) (Link to Google Script - https://www.google.com/script/start/)
+2. Add the function to a trigger
+3. Run
